@@ -1,0 +1,38 @@
+# Secrets and local credentials
+.env
+.env.*
+*.pem
+credentials.json
+token.json
+*secret*
+
+# Official freeze and clean extract are too large for GitHub (100 MB limit).
+Crime_Data_from_2020_to_2024.csv
+lapd_a1_clean.csv
+*.csv.gz
+
+# Report is still being edited. Do not publish it from this push.
+report/
+
+# Local clutter
+.cursor/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+nul
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+
+# Working copies stay local. Published copies live in figures/ and workbooks/.
+images/
+tableau/
+chatgpt_B/
+chatgpt_B.zip
+*.pptx
+*.twb.bak

@@ -1,0 +1,135 @@
+{
+  "source": "Crime_Data_from_2020_to_2024.csv",
+  "output": "lapd_a1_clean.csv",
+  "rows": 1004894,
+  "bytes": 235310769,
+  "year_occ": {
+    "2020": 199847,
+    "2021": 209876,
+    "2022": 235259,
+    "2023": 232345,
+    "2024": 127567
+  },
+  "month_2024": {
+    "1": 18926,
+    "2": 17394,
+    "3": 16293,
+    "4": 12946,
+    "5": 9386,
+    "6": 8126,
+    "7": 8170,
+    "8": 8324,
+    "9": 8309,
+    "10": 7817,
+    "11": 7179,
+    "12": 4697
+  },
+  "crime_family": {
+    "Theft from vehicle": 143330,
+    "Other theft": 142634,
+    "Simple assault": 132159,
+    "Aggravated assault, robbery & homicide": 127050,
+    "Vehicle theft": 122319,
+    "Vandalism": 89032,
+    "Other": 85191,
+    "Identity theft & fraud": 82247,
+    "Burglary": 61822,
+    "Sex offences": 19110
+  },
+  "premise_family": {
+    "Street/sidewalk/parking": 423807,
+    "Residence": 328662,
+    "Business": 164980,
+    "Vehicle/transit": 50342,
+    "Other/public": 37103
+  },
+  "bureau": {
+    "Valley": 292712,
+    "West": 255974,
+    "Central": 245697,
+    "South": 210511
+  },
+  "vict_sex_clean": {
+    "M": 403842,
+    "F": 358553,
+    "Unknown": 242499
+  },
+  "delay_bucket": {
+    "same day": 482015,
+    "1-7 days": 390746,
+    "8-30 days": 73110,
+    "31+ days": 59023
+  },
+  "age_le0": 269315,
+  "age_gt99": 1,
+  "age_kept": 735578,
+  "coords_ok": 1002654,
+  "coords_nulled": 2240,
+  "coord_ok_pass1": 1002654,
+  "map_sample": 200000,
+  "noon_default": 35198,
+  "first_of_month": 46546,
+  "other_crimes_top15": [
+    [
+      "CRIMINAL THREATS - NO WEAPON DISPLAYED",
+      19278
+    ],
+    [
+      "TRESPASSING",
+      18424
+    ],
+    [
+      "VIOLATION OF RESTRAINING ORDER",
+      11748
+    ],
+    [
+      "LETTERS, LEWD  -  TELEPHONE CALLS, LEWD",
+      8712
+    ],
+    [
+      "OTHER MISCELLANEOUS CRIME",
+      6957
+    ],
+    [
+      "VIOLATION OF COURT ORDER",
+      6377
+    ],
+    [
+      "CONTEMPT OF COURT",
+      2722
+    ],
+    [
+      "FAILURE TO YIELD",
+      1715
+    ],
+    [
+      "DISTURBING THE PEACE",
+      1514
+    ],
+    [
+      "CHILD NEGLECT (SEE 300 W.I.C.)",
+      1201
+    ],
+    [
+      "RESISTING ARREST",
+      1038
+    ],
+    [
+      "VIOLATION OF TEMPORARY RESTRAINING ORDER",
+      921
+    ],
+    [
+      "THROWING OBJECT AT MOVING VEHICLE",
+      791
+    ],
+    [
+      "STALKING",
+      665
+    ],
+    [
+      "THREATENING PHONE CALLS/LETTERS",
+      483
+    ]
+  ],
+  "n_crime_descriptions": 140
+}
