@@ -14,6 +14,15 @@ lapd_a1_clean.csv
 # Report is still being edited. Do not publish it from this push.
 report/
 
+# Internal planning / Cursor / ChatGPT drafts. Keep local, never publish.
+A1_PLAN.md
+AGENTS.md
+GROK_CANVA_PPT_PROMPT.md
+VIDEO_PPT_SCRIPT.md
+VIDEO_SPEAKING_SCRIPT.md
+VIDEO_DECK_REBUILD.md
+NEXT_CHAT.md
+
 # Local clutter
 .cursor/
 __pycache__/

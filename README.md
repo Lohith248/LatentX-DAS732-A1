@@ -20,7 +20,6 @@ workbooks/        final .twbx files for each member
 scripts/          official download check and preprocess
 crime_family_map.csv
 preprocess_stats.json
-A1_PLAN.md
 ```
 
 The IEEE report is not in this push. It is still being edited.
