@@ -1,16 +1,12 @@
 # Tableau workbooks
 
-Open these in Tableau Desktop. Each file is a packaged workbook (`.twbx`).
+These are the packaged workbooks we built in Tableau Desktop. Open them there. If Tableau asks for a CSV, point it at `lapd_a1_clean.csv` from the Drive `data` folder.
 
-| File | Member | What it holds |
+| File | Member | Figures |
 |---|---|---|
-| `lohith-when/LatentX_A01.twbx` | Lohith P | Act I time sheets |
-| `lohith-when/A07_report_delay.twbx` | Lohith P | Figure 7 delay sheets |
-| `sri-charan-where/LatentX_B_FINAL.twbx` | Sri Charan | Act II place sheets, including Figure 16 |
-| `anish-what/LatentX_C_FINAL.twbx` | R Anish Reddy | Act III type and victim sheets, including Figure 28 |
+| LatentX_A_When.twbx | Lohith P | 1 to 6 and 8 |
+| LatentX_A_Fig7_Delay.twbx | Lohith P | 7 |
+| LatentX_B_Where.twbx | Sri Charan | 9 to 18 |
+| LatentX_C_What.twbx | R Anish Reddy | 19 to 28 |
 
-Connect the extract to `lapd_a1_clean.csv` if Tableau asks for the local file. That CSV is not in this repository (it is larger than GitHub’s file limit). Rebuild it with:
-
-```
-python scripts/preprocess_lapd_a1.py
-```
+Figure 7 sits in its own file because it uses a separate delay extract. The other When charts are in `LatentX_A_When.twbx`.

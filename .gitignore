@@ -45,3 +45,20 @@ chatgpt_B/
 chatgpt_B.zip
 *.pptx
 *.twb.bak
+
+# Old generate / ChatGPT helpers. Do not publish.
+scripts/a07_extract.py
+scripts/a07_tableau.py
+scripts/a07_validate.py
+scripts/a07_workbook.py
+scripts/build_a01_twbx.py
+scripts/build_a02_month_csv.py
+scripts/build_a07.py
+scripts/build_a08_yoy.py
+scripts/build_video_deck.py
+scripts/export_chatgpt_B.py
+
+# Old workbook copies after the renamed submission files.
+workbooks/lohith-when/
+workbooks/sri-charan-where/
+workbooks/anish-what/

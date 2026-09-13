@@ -15,16 +15,17 @@ Official LAPD crime reports, 2020–2024. Team LatentX, IIIT Bangalore, Term 1 2
 ## What is in this repository
 
 ```
-figures/          28 Tableau exports, split by act
-workbooks/        final .twbx files for each member
-scripts/          official download check and preprocess
+figures/                 28 Tableau exports, split by act
+workbooks/               four packaged Tableau files
+scripts/                 official download check and preprocess
+data/README.md           where the two large CSVs live (Drive)
 crime_family_map.csv
 preprocess_stats.json
 ```
 
 The IEEE report is not in this push. It is still being edited.
 
-The raw official CSV and the clean extract are not here. Each is larger than GitHub’s 100 MB file limit.
+The official freeze and the clean extract are on Google Drive, in the `data` folder. GitHub will not take files over 100 MB.
 
 ## Data
 
@@ -53,6 +54,8 @@ Then `figures/act2-where/`. Central, 77th Street, and Pacific lead volume. Divis
 Then `figures/act3-what/`. Vehicle stolen is the largest description. Identity theft is the steep riser. Victim fields describe recorded persons, not every affected person.
 
 These are report counts, not crime rates.
+
+The IEEE report uses all 28 exports. Report figure N is `FigN.png`.
 
 ## Workbooks
 
